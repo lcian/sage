@@ -63,7 +63,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["black"]
+dev = ["isort", "black"]
 
 [project.scripts]
 sage-index = "sage.index:main"
